@@ -26,6 +26,18 @@
     background-color: rgba(0,0,0, 0.7);
     background-blend-mode:darken ;
 }
+.itemtext{
+    font-family: var(--texto1);
+}
+.title {
+    font-family: var(--titulos1);
+}
+.slogan{
+    font-family: var(--texto);
+}
+.boton{
+    font-family: var(--texto);
+}
 .cover-small{
     height: 300px;
     background-blend-mode: normal;
@@ -36,7 +48,11 @@
 }
 .card-title{
     min-height: 3rem;
+    font-weight: 400;
+    font-family: var(--titulos1);
 }
 .card-text{
     min-height: 10rem;
+    font-weight: 500;
+    font-family: var(--texto);
 }
