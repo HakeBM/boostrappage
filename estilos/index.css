@@ -59,13 +59,13 @@
 .titulosCarousel{
     font-family: var(--titulos1);
     font-weight: 400;
-    min-height: 2rem;
+    min-height: 1rem;
     color: white;
 }
 .carouselText{
     font-family: var(--texto);
     font-weight: 500;
-    min-height: 1rem;
+    min-height: 0.5rem;
     color:white;
 }
 .carousel-item::before {
