@@ -114,13 +114,20 @@
     color: white;
     
 }
-.footer{
-    margin-left: 50px;
+
+.footer {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; 
+    gap: 20px;
 }
+    
+
+
 .listado{
     list-style-type: none;
+
 }
 .seccion1,.seccion2, .seccion3{
     margin-top: 20px;
